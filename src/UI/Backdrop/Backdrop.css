@@ -1,0 +1,6 @@
+.background-pannel {
+  background: rgba(221, 221, 221, 0.185);
+  width: 100vw;
+  height: 100vh;
+  z-index: 5;
+}

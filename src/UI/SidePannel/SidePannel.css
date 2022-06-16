@@ -1,0 +1,28 @@
+.sidePannel-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: fit-content;
+  width: fit-content;
+  background: rgba(173, 216, 230, 0.199);
+}
+
+.sidePannel {
+  position: fixed;
+  overflow: hidden;
+  bottom: 0;
+  max-width: 90%;
+  right: 0;
+  top: 0;
+  z-index: 10;
+  background: lightgray;
+  transition: 0.5s;
+}
+
+.posts {
+  overflow-y: scroll;
+  height: 100vh;
+}
+.posts::-webkit-scrollbar {
+  display: none;
+}

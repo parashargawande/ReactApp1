@@ -1,0 +1,17 @@
+.alert-container {
+  position: fixed;
+  /* top: 30%; */
+  /* left: 40%; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: fit-content;
+  width: fit-content;
+  background: rgba(173, 216, 230, 0.199);
+}
+
+.alertbox {
+  position: fixed;
+  top: 30%;
+  left: 40%;
+}
